@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript form validation - checking email</title>
+<script src="myscript.js" charset="utf-8"></script>
+</head>
+<link rel="stylesheet" href="style.css">
+<body onload='document.form1.text1.focus()'>
+<div class="mail">
+<h2>Input ur email </h2>
+<form name="form1" action="#">
+<ul>
+<li><input type='text' name='text1'/></li>
+<li>&nbsp;</li>
+<li class="submit"><input type="submit" name="submit" onclick="ValidateEmail(document.form1.text1)"/></li>
+<li>&nbsp;</li>
+</ul>
+</form>
+</div>
+<script src="email-validation.js"></script>
+</body>
+</html>
